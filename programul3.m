@@ -1,4 +1,4 @@
-function tema_de_casa_exercitiu3()
+function tema_de_casa_ex3()
     N = 4; %4 niveluri
     ts = 0.001;
     t = 0:ts:N;
