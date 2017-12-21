@@ -1,5 +1,5 @@
 N = 50; % numarul de coeficienti
-D = 19; % durata
+D = 11; % durata
 P = 40; % perioada
 F=1/P; % frecventa 
 w0=2*pi/P; % pulsatia
@@ -48,8 +48,7 @@ ylabel('|X|');
 %%
 % Teoria seriilor Fourier ne spune
 % ca orice semnal periodic poate fi aproximat printr-o suma infinita de sinusi si
-% cosinusi de diferite frecvente fiecare ponderat cu un anumit coeficient. Acesti coeficienti
-% reprezinta practic spectrul.
+% cosinusi de diferite frecvente fiecare ponderat cu un anumit coeficient. Acesti coeficienti reprezinta practic spectrul.
 % Semnalul reconstruit folosind un numar finit de termeni se apropie ca
 % forma de semnalul original cu o anumita marja de eroare. In plus se observa faptul ca semnalul poate fi aproximat printr-o
 % suma de sinusoide: variatiile semanlului au un caracter de sinusoida.
